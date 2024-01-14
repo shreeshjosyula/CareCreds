@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="32dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Account Details"
+            android:textStyle="bold"
+            android:textSize="28sp"
+            android:gravity="center"
+            android:paddingBottom="40dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Account Type:"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:paddingBottom="8dp"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Client/Volunteer"
+                android:gravity="end"
+                android:layout_weight="1"
+                android:paddingBottom="8dp"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Full Name:"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:paddingBottom="8dp"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Abc Xyz"
+                android:gravity="end"
+                android:layout_weight="1"
+                android:paddingBottom="8dp"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Email:"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:paddingBottom="8dp"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="abc.xyz@sample .com"
+                android:gravity="end"
+                android:layout_weight="1"
+                android:paddingBottom="8dp"
+                android:textSize="16sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:orientation="horizontal">
+
+            <!-- Phone Number Label -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Phone Number:"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:paddingBottom="8dp"
+                android:textSize="16sp" />
+
+            <!-- Phone Number Value -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="+1-123-456-7890"
+                android:gravity="end"
+                android:layout_weight="1"
+                android:paddingBottom="8dp"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:orientation="horizontal">
+
+            <!-- Date of Birth Label -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Date of Birth:"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:paddingBottom="8dp"
+                android:textSize="16sp" />
+
+            <!-- Date of Birth Value -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="01/01/1990"
+                android:gravity="end"
+                android:layout_weight="1"
+                android:paddingBottom="8dp"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:orientation="horizontal">
+
+            <!-- Address Label -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Address:"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:paddingBottom="8dp"
+                android:textSize="16sp" />
+
+            <!-- Address Value -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="123 Main St, City, Country"
+                android:gravity="end"
+                android:layout_weight="1"
+                android:paddingBottom="8dp"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:orientation="horizontal">
+
+            <!-- Emergency Contact Label -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Emergency Contact:"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:paddingBottom="8dp"
+                android:textSize="16sp" />
+
+            <!-- Emergency Contact Value -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="+1-123-456-7891"
+                android:gravity="end"
+                android:layout_weight="1"
+                android:paddingBottom="8dp"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:orientation="horizontal">
+
+            <!-- Medical History Label -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Medical History:"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:paddingBottom="8dp"
+                android:textSize="16sp" />
+
+            <!-- Medical History Value -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="None"
+                android:gravity="end"
+                android:layout_weight="1"
+                android:paddingBottom="8dp"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:orientation="horizontal">
+
+            <!-- Dietary Restrictions Label -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Dietary Restrictions:"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:paddingBottom="8dp"
+                android:textSize="16sp" />
+
+            <!-- Dietary Restrictions Value -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Vegetarian"
+                android:gravity="end"
+                android:layout_weight="1"
+                android:paddingBottom="8dp"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:orientation="horizontal">
+
+            <!-- Language Preferences Label -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Language Preferences:"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:paddingBottom="8dp"
+                android:textSize="16sp" />
+
+            <!-- Language Preferences Value -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="English, Spanish"
+                android:gravity="end"
+                android:layout_weight="1"
+                android:paddingBottom="8dp"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:orientation="horizontal">
+
+            <!-- Interests and Hobbies Label -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Interests and Hobbies:"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:paddingBottom="8dp"
+                android:textSize="16sp" />
+
+            <!-- Interests and Hobbies Value -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Reading, Traveling"
+                android:gravity="end"
+                android:layout_weight="1"
+                android:paddingBottom="8dp"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:orientation="horizontal">
+
+            <!-- Medical Insurance Label -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Medical Insurance:"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:paddingBottom="8dp"
+                android:textSize="16sp" />
+
+            <!-- Medical Insurance Value -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:gravity="end"
+                android:layout_weight="1"
+                android:paddingBottom="8dp"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:orientation="horizontal">
+
+            <!-- Transportation Needs Label -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Transportation Needs:"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:paddingBottom="8dp"
+                android:textSize="16sp" />
+
+            <!-- Transportation Needs Value -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Public Transport"
+                android:gravity="end"
+                android:layout_weight="1"
+                android:paddingBottom="8dp"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:orientation="horizontal">
+
+            <!-- Preferred Time for Assistance Label -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Preferred Time for Assistance:"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:paddingBottom="8dp"
+                android:textSize="16sp" />
+
+            <!-- Preferred Time for Assistance Value -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="10:00 AM - 4:00 PM"
+                android:gravity="end"
+                android:layout_weight="1"
+                android:paddingBottom="8dp"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
+    <Button
+        android:id="@+id/editDetailsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit Details"
+        android:textColor="@color/colorTextButton"
+        android:background="@color/action_bar_color"
+        android:layout_margin="16dp"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>

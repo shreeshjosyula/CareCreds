@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="colorPrimary">#6BD6FF</color>
+    <color name="colorPrimaryDark">#2BB7EC</color>
+    <color name="colorAccent">#FFEB3B</color>
+    <color name="colorText">#000000</color>
+    <color name="colorTextButton">#000</color>
+    <color name="hyperlink">#000</color>
+    <color name="buttonColor">#F4DFC8</color>
+    <color name="colorLogo">#FFFEEE</color>
+    <color name="dividerColor">#000000</color>
+    <color name="windowBg">#FAF6F0</color>
+    <color name="snackbar_background_color">#BF4444</color>
+    <color name="action_bar_color">#F4DFC8</color>
+    <color name="dark_theme">#917A62</color>
+
+
+</resources>

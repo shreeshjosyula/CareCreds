@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1040683784127",
+    "project_id": "carecred-7b75c",
+    "storage_bucket": "carecred-7b75c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1040683784127:android:61af6682ddcd3b46e0330a",
+        "android_client_info": {
+          "package_name": "com.example.carecreds"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuFzKFxGq7sscbwpYjb2j5mpToupKmQXU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

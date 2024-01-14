@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:backgroundTint="#F4EAE0"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Client Email ID TextView -->
+
+        <TextView
+            android:id="@+id/textViewServiceTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Service Title" />
+        <TextView
+            android:id="@+id/textViewServiceDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Service Description" />
+        <TextView
+            android:id="@+id/textViewClientEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Client Email ID" />
+
+        <TextView
+            android:id="@+id/textViewEnrolledVolunteers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enrolled Volunteers" />
+
+        <TextView
+            android:id="@+id/textViewPointsAwarded"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Points Awarded" />
+
+        <TextView
+            android:id="@+id/textViewExtraNotes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Points Awarded" />
+
+        <Button
+            android:id="@+id/buttonEnroll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:text="Enroll" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

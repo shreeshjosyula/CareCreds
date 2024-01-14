@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".App.CareCredsApp"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/app_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CareCreds"
+        tools:targetApi="31">
+        <activity
+            android:name=".Activity.HomeVolunteerActivity"
+            android:windowSoftInputMode="adjustPan"
+            android:exported="false"
+            android:label="@string/title_activity_home_volunteer" />
+        <activity
+            android:name=".Activity.HomeClientActivity"
+            android:windowSoftInputMode="adjustPan"
+            android:exported="false"
+            android:label="@string/title_activity_home_client" />
+        <activity
+            android:name=".Activity.VolunteerDetailFormActivity"
+            android:theme="@style/inputStyle"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.RegistrationActivity"
+            android:theme="@style/inputStyle"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.UserTypeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.SignupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.SplashscreenActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.AccountDetailsActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CareCreds</string>
+    <string name="title_activity_home_client">HomeClientActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_home_volunteer">HomeVolunteerActivity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="available_volunteers"><u>Available Volunteers</u> </string>
+    <string name="no_volunteers_found">No Volunteers Found</string>
+    <string name="frag_open_tag">open frag</string>
+</resources>

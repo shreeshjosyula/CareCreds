@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation2"
+    app:startDestination="@+id/navigation_open_jobs">
+
+    <fragment
+        android:id="@+id/navigation_open_jobs"
+        android:name="com.example.carecreds.Activity.ui.OpenVolunteerJobs.OpenVolunteerJobsFragment"
+        android:label="Open Volunteer Jobs"
+        tools:layout="@layout/fragment_open_jobs" />
+
+    <fragment
+        android:id="@+id/navigation_requests"
+        android:name="com.example.carecreds.Activity.ui.Requests.RequestsFragment"
+        android:label="Volunteer Requests"
+        tools:layout="@layout/fragment_requests" />
+
+    <fragment
+        android:id="@+id/navigation_enrolled_jobs"
+        android:name="com.example.carecreds.Activity.ui.EnrolledVolunteers.EnrolledVolunteersFragment"
+        android:label="Currently Enrolled Jobs"
+        tools:layout="@layout/fragment_enrolled_volunteers" />
+
+    <fragment
+        android:id="@+id/navigation_care_cred_points"
+        android:name="com.example.carecreds.Activity.ui.CareCredPoints.CareCredPointsFragment"
+        android:label="CareCred"
+        tools:layout="@layout/fragment_care_cred_points" />
+</navigation>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.ui.OpenVolunteerJobs.OpenVolunteerJobsFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/open_jobs_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:itemCount="2"
+        tools:listitem="@layout/open_job_item" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="There are no open jobs at this time."
+        android:gravity="center"
+        android:textColor="@color/dividerColor"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        android:id="@+id/no_open_jobs_found_text_view"/>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/open_jobs_progress_bar"/>
+</RelativeLayout>

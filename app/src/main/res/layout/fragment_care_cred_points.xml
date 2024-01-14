@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="6dp"
+    android:gravity="center"
+    tools:context=".Activity.ui.CareCredPoints.CareCredPointsFragment">
+
+    <TextView
+        android:id="@+id/care_cred_points"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Current CareCred Points: 0"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_margin="10dp"/>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="12dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/carecred_point"/>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Keep going to earn more CareCred points!"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Rack up your CareCred Points - they're your passport to community growth, enhanced credibility, and unlocking exclusive opportunities through your volunteer efforts!"/>
+
+
+</LinearLayout>

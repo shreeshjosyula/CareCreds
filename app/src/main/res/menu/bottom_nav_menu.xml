@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_services"
+        android:icon="@drawable/ic_service"
+        android:title="Services" />
+
+    <item
+        android:id="@+id/navigation_all_volunteers"
+        android:icon="@drawable/ic_volunteer"
+        android:title="Volunteers" />
+
+    <item
+        android:id="@+id/navigation_enrolled_volunteers"
+        android:icon="@drawable/ic_enrolled"
+        android:title="Enrolled" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/ic_edit"
+        android:title="Profile" />
+
+
+</menu>

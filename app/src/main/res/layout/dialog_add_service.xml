@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/editTextTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Service Title"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Service Description"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/editTextVolunteersNeeded"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Volunteers Needed"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextPointsPerJob"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="Points per job"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextHours"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hours Required"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextExtraNotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Extra Notes"
+        android:inputType="textMultiLine" />
+
+</LinearLayout>

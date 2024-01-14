@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_open_jobs"
+        android:icon="@drawable/ic_service"
+        android:title="Jobs" />
+    <item
+        android:id="@+id/navigation_requests"
+        android:icon="@drawable/ic_request"
+        android:title="Requests" />
+    <item
+        android:id="@+id/navigation_enrolled_jobs"
+        android:icon="@drawable/ic_enrolled"
+        android:title="Enrolled" />
+    <item
+        android:id="@+id/navigation_care_cred_points"
+        android:icon="@drawable/ic_point"
+        android:title="CareCred" />
+</menu>

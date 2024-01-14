@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_services">
+
+    <fragment
+        android:id="@+id/navigation_services"
+        android:name="com.example.carecreds.Activity.ui.Services.ServicesFragment"
+        android:label="Services"
+        tools:layout="@layout/fragment_services" />
+
+    <fragment
+        android:id="@+id/navigation_all_volunteers"
+        android:name="com.example.carecreds.Activity.ui.AllVolunteers.AllVolunteersFragment"
+        android:label="All Volunteers"
+        tools:layout="@layout/fragment_all_volunteers" />
+
+    <fragment
+        android:id="@+id/navigation_enrolled_volunteers"
+        android:name="com.example.carecreds.Activity.ui.EnrolledVolunteers.EnrolledVolunteersFragment"
+        android:label="Enrolled Volunteers"
+        tools:layout="@layout/fragment_enrolled_volunteers" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.example.carecreds.Activity.ui.EditProfile.EditClientProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/activity_registration" />
+</navigation>
